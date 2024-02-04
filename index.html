@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-rex</title>
+</head>
+<style>
+    body {
+        background: linear-gradient(black, rgb(204, 0, 255));
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo {
+        height: 443px;
+        margin: 90px 29px;
+    }
+    
+    form {
+        border-radius: 100px;
+        box-shadow: 16px 34px 41px 0px rgb(0 0 0 / 80%);
+        background-color: #0a000d6b;
+        margin: -153px 50px;
+        width: 357px;
+        height: 190px;
+    }
+    
+    input::placeholder {
+        color: antiquewhite;
+    }
+    
+    input {
+        background-color: rgb(212 44 255 / 0%);
+        border-radius: 98px;
+        height: 35px;
+        width: 223px;
+        font-size: 14px;
+        margin: 9px 69px;
+    }
+    
+    button {
+        color: antiquewhite;
+        background-color: #8b008b00;
+        border-radius: 45px;
+        padding: -4px;
+        height: 27px;
+        width: 130px;
+        font-size: 14px;
+        margin: 16px 120px;
+    }
+    
+    @media screen and (min-width: 1024px) and (max-width: 1440px) {
+        .logo {
+            height: 500px;
+            margin: -35px 427px;
+        }
+        form {
+            border-radius: 100px;
+            box-shadow: 16px 34px 41px 0px rgb(0 0 0 / 80%);
+            background-color: #0a000d6b;
+            margin: -63px 442px;
+            width: 425px;
+            height: 230px;
+        }
+        input {
+            background-color: rgb(212 44 255 / 0%);
+            border-radius: 98px;
+            padding: -4px;
+            height: 37px;
+            width: 256px;
+            font-size: 14px;
+            margin: 19px 84px;
+        }
+        button {
+            color: antiquewhite;
+            background-color: #8b008b00;
+            border-radius: 45px;
+            padding: -4px;
+            height: 27px;
+            width: 130px;
+            font-size: 14px;
+            margin: 15px 145px;
+        }
+    }
+</style>
+
+<body>
+    <div class="cont-1">
+        <img class="logo" src="./image/T-rex.png" alt=""> <br>
+        <form action="#" method="post"> <br>
+
+            <input type="text" id="email" name="email" placeholder="Enter your email" required> <br>
+
+
+            <input type="password" id="password" name="password" placeholder="Enter your password" required> <br>
+
+            <button>Login</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
